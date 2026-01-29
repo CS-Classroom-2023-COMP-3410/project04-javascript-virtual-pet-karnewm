@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+#pet-image {
+  font-family: monospace;
+  white-space: pre;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 20px auto;
+}
+
+#status-panel {
+  margin: 20px auto;
+  width: 260px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.status-high {
+  color: red;
+  font-weight: bold;
+}
+
+.status-low {
+  color: goldenrod;
+  font-weight: bold;
+}
+
+#controls button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.shake {
+  animation: shake 0.4s ease;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
